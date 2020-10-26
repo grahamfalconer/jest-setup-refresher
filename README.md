@@ -102,6 +102,13 @@ touch .babelrc
 
 <br>
 
+Install the new packages
+```
+npm install
+```
+
+<br>
+
 Example input - output
 A string is the input ...
 ['red', 'green', 'red', 'red', 'amber']
