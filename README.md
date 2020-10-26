@@ -102,7 +102,8 @@ touch .babelrc
 
 <br>
 
-Install the new packages
+**Install the new packages**
+
 ```
 npm install
 ```
