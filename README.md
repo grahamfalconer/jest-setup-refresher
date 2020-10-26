@@ -62,6 +62,7 @@ _After..._
 <br>
 
 **Add babel dependencies to use Import instead of require**
+
 _Before..._
 ```
   "devDependencies": {
