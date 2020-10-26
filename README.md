@@ -42,6 +42,22 @@ mkdir spec
 mkdir src
 ```
 
+<br>
+
+Make a change in package.json to use jest:
+
+_Before..._
+```
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+```
+_After..._
+```
+  "scripts": {
+    "test": "jest"
+  },
+```
 
 
 Example input - output
