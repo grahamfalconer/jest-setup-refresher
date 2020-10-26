@@ -1,3 +1,7 @@
-test('testing test', () => {
-  expect(2).toBe(2)
-});
+const report = require('../src/report')
+
+describe('#Report', () => {
+  test('It returns a string as an output', () => {
+    expect(typeof report("Green")).toBe("string")
+  })
+})
