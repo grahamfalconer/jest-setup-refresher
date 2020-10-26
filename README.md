@@ -1,4 +1,6 @@
+<div style="align: center;">
 Example Review.
+</div>
 
 Setup repo with Github:
 
@@ -25,6 +27,8 @@ npm install --save-dev jest
 ```
 npm install (to make sure everything was installed properly)
 ```
+
+
 
 Example input - output
 A string is the input ...
