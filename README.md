@@ -121,7 +121,7 @@ touch MyClass.js
 
 <br>
 
-Write a test for your class (Babel will be configured so node can support Import statement)
+**Write a test for your class (Babel will be configured so node can support Import statement)**
 ```
 import MyClass from "../src/MyClass";
 
@@ -153,5 +153,5 @@ npm test
 
 <br>
 
-**... and voila! You're ready to test classes in Jest**
+**... and voila! You're ready to test classes in Jest.**
 
