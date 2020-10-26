@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Example Review.</h1>
+<h1>Setup your project with Jest.</h1>
 </div>
 
 **Setup repo with Github:**
