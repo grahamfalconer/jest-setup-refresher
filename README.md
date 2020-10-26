@@ -2,7 +2,7 @@
 <h1>Example Review.</h1>
 </div>
 
-Setup repo with Github:
+**Setup repo with Github:**
 
 ```
 git init 
@@ -15,7 +15,7 @@ git push -u origin main
 
 <br>
 
-Setup Node:
+**Setup Node:**
 
 ```
 npm init -y
@@ -23,7 +23,7 @@ npm init -y
 
 <br>
 
-Setup Jest:
+**Setup Jest:**
 
 ```
 npm install --save-dev jest
@@ -34,7 +34,7 @@ npm install (to make sure everything was installed properly)
 
 <br>
 
-Create folders for your code and tests:
+**Create folders for your code and tests:**
 ```
 mkdir spec
 ```
@@ -44,7 +44,7 @@ mkdir src
 
 <br>
 
-Make a change in package.json to use jest:
+**Make a change in package.json to use jest:**
 
 _Before..._
 ```
