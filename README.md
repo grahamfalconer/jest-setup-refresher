@@ -1,4 +1,4 @@
-<div style="align: center;">
+<div align="center">
 Example Review.
 </div>
 
