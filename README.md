@@ -13,6 +13,8 @@ git remote add origin https://github.com/grahamfalconer/jest-refresher.git
 git push -u origin main
 ```
 
+<br>
+
 Setup Node:
 
 ```
@@ -29,6 +31,8 @@ npm install --save-dev jest
 ```
 npm install (to make sure everything was installed properly)
 ```
+
+<br>
 
 
 
