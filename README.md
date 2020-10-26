@@ -59,6 +59,47 @@ _After..._
   },
 ```
 
+<br>
+
+**Add babel dependencies to use Import instead of require**
+_Before..._
+```
+  "devDependencies": {
+    "jest": "^26.6.1"
+  },
+```
+_After..._
+```
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.9.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "esm": "^3.2.25",
+    "jest": "^26.6.1"
+  },
+```
+
+<br>
+
+**Add a Babel config file**
+```
+touch .babelrc
+```
+
+<br>
+
+**Add the following to the babel config file**
+```
+{
+  "env": {
+    "test": {
+      "plugins": ["@babel/plugin-transform-modules-commonjs"]
+    }
+  }
+}
+```
+
+<br>
 
 Example input - output
 A string is the input ...
