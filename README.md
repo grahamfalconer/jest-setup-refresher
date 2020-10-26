@@ -9,7 +9,7 @@ git init
 git add . 
 git commit -m "updated README"
 git branch -M main
-git remote add origin https://github.com/grahamfalconer/jest-refresher.git
+git remote add origin <Your repo url + .git>
 git push -u origin main
 ```
 
