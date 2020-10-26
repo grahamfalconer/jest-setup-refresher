@@ -110,7 +110,48 @@ npm install
 
 <br>
 
-Example input - output
-A string is the input ...
-['red', 'green', 'red', 'red', 'amber']
-['red', 'green', 'amber', 'red']
+**Make your class file and test file**
+```
+cd spec
+touch MyClass.test.js
+cd ..
+cd src
+touch MyClass.js
+```
+
+<br>
+
+Write a test for your class (Babel will be configured so node can support Import statement)
+```
+import MyClass from "../src/MyClass";
+
+describe('#MyClass', () => {
+  test('It has a name', () => {
+    let myClass = new MyClass("Graham")
+    expect(myClass.name).toBe("Graham")
+  })
+});
+
+```
+
+<br>
+
+**Type your class**
+```
+export default class MyClass {
+  constructor(name) {
+    this.name = name
+  }
+}
+```
+<br>
+
+**Run the test**
+```
+npm test
+```
+
+<br>
+
+**... and voila! You're ready to test classes in Jest**
+
