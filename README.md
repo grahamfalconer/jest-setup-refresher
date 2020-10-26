@@ -34,6 +34,14 @@ npm install (to make sure everything was installed properly)
 
 <br>
 
+Create folders for your code and tests:
+```
+mkdir spec
+```
+```
+mkdir src
+```
+
 
 
 Example input - output
