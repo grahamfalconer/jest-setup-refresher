@@ -1,5 +1,5 @@
 <div align="center">
-Example Review.
+<h1>Example Review.</h1>
 </div>
 
 Setup repo with Github:
