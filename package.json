@@ -1,0 +1,20 @@
+{
+  "name": "review1",
+  "version": "1.0.0",
+  "description": "Example Review.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grahamfalconer/jest-refresher.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grahamfalconer/jest-refresher/issues"
+  },
+  "homepage": "https://github.com/grahamfalconer/jest-refresher#readme"
+}

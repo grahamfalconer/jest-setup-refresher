@@ -1,6 +1,6 @@
 Example Review.
 
-Github Setup:
+Setup repo with Github:
 
 ```
 git init 
@@ -9,6 +9,12 @@ git commit -m "updated README"
 git branch -M main
 git remote add origin https://github.com/grahamfalconer/jest-refresher.git
 git push -u origin main
+```
+
+Setup Node:
+
+```
+npm init -y
 ```
 
 Example input - output
