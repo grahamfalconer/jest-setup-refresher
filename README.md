@@ -17,6 +17,15 @@ Setup Node:
 npm init -y
 ```
 
+Setup Jest:
+
+```
+npm install --save-dev jest
+```
+```
+npm install (to make sure everything was installed properly)
+```
+
 Example input - output
 A string is the input ...
 ['red', 'green', 'red', 'red', 'amber']

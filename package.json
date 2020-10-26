@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/grahamfalconer/jest-refresher/issues"
   },
-  "homepage": "https://github.com/grahamfalconer/jest-refresher#readme"
+  "homepage": "https://github.com/grahamfalconer/jest-refresher#readme",
+  "devDependencies": {
+    "jest": "^26.6.1"
+  }
 }
